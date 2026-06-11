@@ -11,7 +11,7 @@ print("\nLoading trained model...")
 model = joblib.load("output/sales_model.pkl")
 print("✓ Model Loaded Successfully!")
 
-# Load feature engineered dataset
+#  feature engineered dataset
 print("\nLoading feature engineered dataset...")
 df = pd.read_csv("output/feature_engineered.csv")
 print(f"✓ Dataset Loaded: {df.shape[0]} rows, {df.shape[1]} columns")
